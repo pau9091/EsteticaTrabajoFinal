@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">EsteticaTrabajoFinal</string>
+    <string name="btn1">ENTRAR</string>
+    <string name="pass">INGRESA TU CONTRASEÑA</string>
+    <string name="usr">INGRESA TU USUARIO</string>
+    <string name="bt2">REGISTRATE</string>
+    <string name="TITULO">REGISTRO</string>
+    <string name="id">INGRESA TU USUARIO</string>
+    <string name="CON">INGRESA UNA CONTRASEÑA</string>
+    <string name="TEL">REGISTRA UN TELEFONO</string>
+    <string name="regis">REGISTRARSE</string>
+    <string name="re">regresar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

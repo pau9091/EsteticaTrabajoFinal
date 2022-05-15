@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#907FFA"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="B I E N V E N I D O"
+        android:fontFamily="@font/fuenteuno"
+        android:textColor="@color/black"
+        android:textSize="60sp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="95dp"
+        android:textStyle="bold"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tinte"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="150dp"/>
+    <EditText
+        android:id="@+id/usr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/usr"
+        android:textSize="15dp"
+        android:fontFamily="sans-serif-thin"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:drawableLeft="@drawable/usuario"
+        android:textColorHint="@color/black"/>
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/pass"
+        android:textSize="15dp"
+        android:fontFamily="sans-serif-thin"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:drawableLeft="@drawable/contrasena"
+        android:textColorHint="@color/black" />
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn1"
+        android:textSize="30sp"
+         android:background="@drawable/btn"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="15dp"
+        android:onClick="Login"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:text="Si aun no tienes cuenta"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/btn"
+        android:onClick="Registro"
+        android:text="@string/bt2"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/tik"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/redes"
+            android:scaleType="fitCenter"
+            android:src="@drawable/tiktok" />
+
+        <ImageButton
+            android:id="@+id/f"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/redes"
+            android:scaleType="fitCenter"
+            android:src="@drawable/facebook" />
+
+        <ImageButton
+            android:id="@+id/t"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/redes"
+            android:scaleType="fitCenter"
+            android:src="@drawable/twitter" />
+
+        <ImageButton
+            android:id="@+id/i"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/redes"
+            android:scaleType="fitCenter"
+            android:src="@drawable/instagram" />
+    </LinearLayout>
+</LinearLayout>
