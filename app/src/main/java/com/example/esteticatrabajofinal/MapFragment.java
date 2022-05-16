@@ -1,6 +1,6 @@
-package com.example.estetica;
+package com.example.esteticatrabajofinal;
 
-import android.os.Bundle;
+import androidx.appcompat.app.AppCompatActivity;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
