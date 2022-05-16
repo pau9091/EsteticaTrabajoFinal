@@ -1,8 +1,6 @@
-package com.example.estetica;
+package com.example.esteticatrabajofinal;
 
 import androidx.appcompat.app.AppCompatActivity;
-
-import android.os.Bundle;
 
 public class ver_citas extends AppCompatActivity {
     public TextView textViewTitle, textViewEmpty, editTextSessionType, editTextDateTime, editTextDateScheduled, textView, textView2, textView3;
