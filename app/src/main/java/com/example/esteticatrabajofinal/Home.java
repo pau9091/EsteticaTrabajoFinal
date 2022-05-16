@@ -32,10 +32,12 @@ public class Home extends AppCompatActivity {
         startActivity(intent);
     }
     public void citas(View view){
-        // Intent intent=new Intent(this,.class)
+        Intent intent=new Intent(this,ver_citas.class);
+        startActivity(intent);
     }
     public void mapa(View view){
-        // Intent intent=new Intent(this,.class)
+        Intent intent=new Intent(this,MapFragment.class);
+        startActivity(intent);
     }
     public void salir (View view){
         SharedPreferences sharedPref = this.getSharedPreferences("correo_electronico", Context.MODE_PRIVATE);
