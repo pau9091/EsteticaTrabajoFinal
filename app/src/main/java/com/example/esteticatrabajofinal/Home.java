@@ -28,13 +28,16 @@ public class Home extends AppCompatActivity {
     }
     //metodos para dirigir a los boton a su clase correspondiente
     public void agendar(View view){
-       // Intent intent=new Intent(this,.class)
+       Intent intent=new Intent(this,RealizarCita.class);
+        startActivity(intent);
     }
     public void citas(View view){
-        // Intent intent=new Intent(this,.class)
+        Intent intent=new Intent(this,ver_citas.class);
+        startActivity(intent);
     }
     public void mapa(View view){
-        // Intent intent=new Intent(this,.class)
+        Intent intent=new Intent(this,MapFragment.class);
+        startActivity(intent);
     }
     public void salir (View view){
         SharedPreferences sharedPref = this.getSharedPreferences("correo_electronico", Context.MODE_PRIVATE);
